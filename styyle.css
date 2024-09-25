@@ -1,0 +1,46 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
+
+.text-overlay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-overlay h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text-overlay a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
